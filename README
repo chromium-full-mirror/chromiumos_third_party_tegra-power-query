@@ -1,0 +1,7 @@
+Build with 'make'.
+Run with './tegra-power-query'.
+For help, './tegra-power-query -h'.
+
+If you're having trouble, make sure that you have CONFIG_USB_HIDDEV enabled in
+your kernel and that you have read access to the device nodes at
+"/dev/usb/hiddev*".
